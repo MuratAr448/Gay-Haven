@@ -661,8 +661,19 @@ MonoBehaviour:
   features:
   - {fileID: 8736661028334727731}
   - {fileID: 3598254934845347770}
+  - {fileID: 5096541273834525093}
+  - {fileID: 3988130064931323665}
   - {fileID: 1170704673688743257}
+  - {fileID: 3576107565514494093}
+  - {fileID: 5036950402961878967}
+  - {fileID: 6291563540056225667}
+  - {fileID: -1259163197614895673}
+  - {fileID: -6347894917552018296}
   - {fileID: 5153017048313567732}
+  - {fileID: 7341025170603177625}
+  - {fileID: -2633948027817637258}
+  - {fileID: 6912527598306375615}
+  - {fileID: 3173676417955031970}
   - {fileID: -8705318006256794946}
   - {fileID: 6481653220666705815}
   - {fileID: 7393116930172532905}
@@ -672,6 +683,8 @@ MonoBehaviour:
   - {fileID: 3344995148386438684}
   - {fileID: 6389727029650002286}
   - {fileID: -4166740740631445519}
+  - {fileID: 123811883720798341}
+  - {fileID: 8015320475075437321}
   - {fileID: -8999059302058509960}
   - {fileID: -5212364890371797913}
   - {fileID: 3837512152752227827}
@@ -684,11 +697,13 @@ MonoBehaviour:
   - {fileID: -6300852659050339468}
   - {fileID: -4782912542820276973}
   - {fileID: 1109513913212486038}
+  - {fileID: -838574181242624041}
   - {fileID: -500553951895718075}
   - {fileID: 8461216366325073885}
   - {fileID: -8385369577385903398}
   - {fileID: -2778858118241658710}
   - {fileID: 430188747721659633}
+  - {fileID: 7228910870638106667}
   - {fileID: 750856212347791325}
   - {fileID: 2821238428615573753}
   - {fileID: -7677771197093365762}
@@ -698,21 +713,6 @@ MonoBehaviour:
   - {fileID: 6854443372140345734}
   - {fileID: 8347051584439025853}
   - {fileID: 2684350569200705238}
-  - {fileID: -838574181242624041}
-  - {fileID: 7228910870638106667}
-  - {fileID: -6347894917552018296}
-  - {fileID: 5036950402961878967}
-  - {fileID: 5096541273834525093}
-  - {fileID: 3988130064931323665}
-  - {fileID: 6291563540056225667}
-  - {fileID: 7341025170603177625}
-  - {fileID: 6912527598306375615}
-  - {fileID: -1259163197614895673}
-  - {fileID: 3576107565514494093}
-  - {fileID: -2633948027817637258}
-  - {fileID: 3173676417955031970}
-  - {fileID: 8015320475075437321}
-  - {fileID: 123811883720798341}
   customLoaderName: 
   m_renderMode: 0
   m_latencyOptimization: 0
@@ -896,7 +896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5019471fb2174e5c852ecd4047163007, type: 3}
   m_Name: HandInteractionProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteraction
@@ -2753,7 +2753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
   m_Name: MetaQuestTouchProControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
@@ -2906,7 +2906,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &8015320475075437321
