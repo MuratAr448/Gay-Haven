@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
+  m_Name: S_Water
   m_Shader: {fileID: -6465566751694194690, guid: 13de0f11935dd694aaa8982282215fab, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,15 +38,27 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Direction: 0
+    - _Faom_amount: 100
+    - _Float: 0
+    - _Float_1: 0
+    - _Foam_size: 90
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Voronoi_cell_density: 0
-    - _Voronoi_speed: 0
-    - _Voronoi_thickness: 0
+    - _Shimmer_speed: 0
+    - _Transluncency: 0
+    - _Voronoi_cell_density: 15
+    - _Voronoi_speed: 0.5
+    - _Voronoi_thickness: 5
+    - _Water_depth: 0.5
+    - _Wave_frequency: 5
+    - _Wave_speed: 0.75
+    - _Waves: 0.1
     m_Colors:
-    - _Depth_colour: {r: 0, g: 0.9447758, b: 1, a: 1}
-    - _Shadow_colour: {r: 0, g: 0.21316183, b: 1, a: 1}
-    - _Specular_colour: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    - _Depth_colour: {r: 0, g: 0.6037736, b: 0.5031446, a: 1}
+    - _Reciprocal: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow_colour: {r: 0, g: 0.35673133, b: 0.48584902, a: 1}
+    - _Specular_colour: {r: 0.41037738, g: 0.41037738, b: 0.41037738, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &3550780604941063882
