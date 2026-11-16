@@ -48,17 +48,18 @@ Material:
     - _Shimmer_speed: 0
     - _Transluncency: 0
     - _Voronoi_cell_density: 15
-    - _Voronoi_speed: 0.5
+    - _Voronoi_speed: 2
     - _Voronoi_thickness: 5
     - _Water_depth: 0.5
     - _Wave_frequency: 5
     - _Wave_speed: 0.75
-    - _Waves: 0.1
+    - _Waves: 0.5
     m_Colors:
-    - _Depth_colour: {r: 0, g: 0.6037736, b: 0.5031446, a: 1}
+    - _Depth_colour: {r: 0, g: 0.8301887, b: 0.6952496, a: 1}
     - _Reciprocal: {r: 0, g: 0, b: 0, a: 0}
     - _Shadow_colour: {r: 0, g: 0.35673133, b: 0.48584902, a: 1}
-    - _Specular_colour: {r: 0.41037738, g: 0.41037738, b: 0.41037738, a: 1}
+    - _Specular_colour: {r: 0.7028302, g: 0.7028302, b: 0.7028302, a: 1}
+    - _Water_colour: {r: 0, g: 1, b: 0.92156863, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &3550780604941063882
