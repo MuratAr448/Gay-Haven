@@ -12,9 +12,14 @@ public class OrderCrates : MonoBehaviour
     public int amountCrates = 0;
     private void Start()
     {
+        MinigameCrates minigameCrates = GetComponentInParent<MinigameCrates>();
+        float cratePlacement = minigameCrates.cratePlacement;
+        float repos = cratePlacement * 0.5f;
         for (int i = 0; i < socets.Count; i++)
         {
+            socets[i].transform.position = transform.position + Vector3.up*(cratePlacement*i + repos);
             socets[i].socketActive = false;
+            socets[i].GetComponent<SphereCollider>().radius = repos*0.9f;
         }
         socets[0].socketActive = true;
     }
