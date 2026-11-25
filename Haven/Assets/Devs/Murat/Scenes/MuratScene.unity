@@ -2744,7 +2744,7 @@ GameObject:
   - component: {fileID: 1876018179}
   - component: {fileID: 1876018178}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Event
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3014,6 +3014,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 402213012}
     m_Modifications:
+    - target: {fileID: 2893123211923038275, guid: 191d08f1a36e3a242aa18cc9d479bf9e, type: 3}
+      propertyPath: m_LinearDamping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893123211923038275, guid: 191d08f1a36e3a242aa18cc9d479bf9e, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7303776327209036541, guid: 191d08f1a36e3a242aa18cc9d479bf9e, type: 3}
       propertyPath: m_FocusMode
       value: 2
@@ -3023,8 +3031,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7303776327209036541, guid: 191d08f1a36e3a242aa18cc9d479bf9e, type: 3}
+      propertyPath: m_SmoothRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303776327209036541, guid: 191d08f1a36e3a242aa18cc9d479bf9e, type: 3}
       propertyPath: m_UseDynamicAttach
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7303776327209036541, guid: 191d08f1a36e3a242aa18cc9d479bf9e, type: 3}
       propertyPath: m_SnapToColliderVolume
@@ -3145,12 +3157,12 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1792530511}
+  - {fileID: 1052791140}
+  - {fileID: 1876018180}
   - {fileID: 1422722006}
   - {fileID: 788793043}
   - {fileID: 402213012}
   - {fileID: 1664224254}
   - {fileID: 1441196750}
-  - {fileID: 1876018180}
-  - {fileID: 1052791140}
   - {fileID: 8570128737758590084}
   - {fileID: 379256939}
