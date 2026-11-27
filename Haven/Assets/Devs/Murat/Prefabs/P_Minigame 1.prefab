@@ -1099,7 +1099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinigameCrates
   miniGameWon: 0
-  cratePlacement: 0.5
+  cratePlacement: 0.75
   crates:
   - {fileID: 3444080355064649871}
   - {fileID: 6247641710719306536}

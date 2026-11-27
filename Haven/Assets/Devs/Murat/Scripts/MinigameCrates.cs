@@ -5,6 +5,7 @@ public class MinigameCrates : MonoBehaviour
 {
     public bool miniGameWon = false;
     public float cratePlacement = 1;
+    public int cratesNeeded = 5;
     [SerializeField] private List<OrderCrates> crates;
     private void Start()
     {
@@ -12,7 +13,7 @@ public class MinigameCrates : MonoBehaviour
         {
             int repos = (int)(crates.Count * 0.5f);
             float placement = cratePlacement * i- repos*cratePlacement;
-            crates[i].transform.position = transform.position + Vector3.forward * placement;
+            crates[i].transform.position = transform.position + transform.forward * placement;
         }
     }
     private void Update()
@@ -29,7 +30,7 @@ public class MinigameCrates : MonoBehaviour
         {
             totalCrates += crates[i].amountCrates;
         }
-        if (totalCrates >= 5)
+        if (totalCrates >= cratesNeeded)
         {
             miniGameWon = true;
         }
